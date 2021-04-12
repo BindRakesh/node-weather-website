@@ -20,8 +20,6 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageTwo.textContent = 'Location: ' + data.location + ' It is ' + data.forecast.currentTemp + ' degree and ' + data.forecast.Description
                 messageOne.textContent = ''
-                    // console.log(data.location)
-                    // console.log(data.forecast.currentTemp + ' ' + data.forecast.Description)
             }
         })
     })
